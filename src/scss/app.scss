@@ -1,0 +1,32 @@
+@import 'settings/variable';  //themes' colors
+
+//vendor...
+@import './vendor';
+
+//base...
+@import 'generic/normalize.scss';
+@import 'generic/box-sizing.scss';
+@import './base/scaffolding';         // styles of base elements
+@import './base/typography';          // base styles of h1-h6, p, span
+
+//components...
+@import './component/alert';                    // components/Alert.js ('reactstrap')
+@import './component/card';                   // Card, CardBody from 'reactstrap'
+@import './component/catalog_item';           // components/catalog/CatalogItems.js
+@import './component/collapse';               // components/Collapse.js ('reactstrap')
+@import './component/grid';                   // useless. using for grid presentation
+@import './component/list';
+@import './component/panel';                  // components/Panel.js
+@import './component/popover';                // Popover from 'reactstrap'
+@import './component/pricing-card';
+@import './component/slider';                 // components/range_slider/* ('rc-slider')
+@import './component/table';                  // components/Table.js ('reactstrap')
+@import './component/coverage.scss';
+
+//pages...
+@import 'containers/dashboard';            // pages/dashboards/*
+@import 'containers/invoice';              // pages/default_page/invoice_template
+
+//objects...
+@import 'objects/layout.scss';        // layout settings
+

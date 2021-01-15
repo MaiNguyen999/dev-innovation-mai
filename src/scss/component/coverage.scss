@@ -1,0 +1,52 @@
+.youtube-icon {
+    position: absolute;
+    top: 6px;
+    @include directify($directions) {
+      #{directed('right')}: 50px;
+    }
+    width: 21px;
+  }
+  .stats-icon {
+    position: absolute;
+    top: 5px;
+    @include directify($directions) {
+      #{directed('right')}: 85px;
+    }
+    width: 18px;
+  }
+  .info-icon {
+    position: absolute;
+    top: 7px;
+    @include directify($directions) {
+      #{directed('right')}: 20px;
+    }
+    width: 18px;
+  }
+  .line-break{
+      margin-top: 50px;
+  }
+  .suggestion-icon{
+    padding-right:5px;
+    width: 18px;
+  }
+  .tooltip-span{
+    display:flex;
+  }
+  .carousel-card{
+    width: 180px;
+    height: 180px;
+  }
+  .price-section{
+    height: 20%;
+  }
+  .dashboard-total{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .price-number{
+    color: gray;
+      font-size: 37px;
+      line-height: 34px;
+      padding-bottom:20px;
+  }
