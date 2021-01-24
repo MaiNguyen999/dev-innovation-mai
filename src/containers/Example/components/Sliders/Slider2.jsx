@@ -16,7 +16,6 @@ class Slider2 extends Component{
         
       }
     render(){
-      console.log("This is 2");
         return(
             <Slider
             min={0}

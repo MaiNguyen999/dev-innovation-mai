@@ -20,7 +20,7 @@ class Card2 extends Component{
           <CardBody>
           <div className="dashboard__stat dashboard__stat--budget">
             <div className="dashboard__stat-main">
-              <p className="dashboard__stat-main-title">Expected Premium</p>
+              <p className="dashboard__stat-main-title">Expected Price</p>
               <p className="dashboard__stat-main-number">${priceValue2}</p>
               <hr />
             </div>
@@ -33,7 +33,7 @@ class Card2 extends Component{
               <p className="dashboard__stat-label" style={{ color: '#4ce1b6' }}>80%</p>
             </div>
             <div className="dashboard__stat-info">
-              <p>Flooding happens in this area</p>
+              <p>People uses this pencil for painting</p>
               <h4 className="dashboard__stat-number">
                 Starting from $23,747.00
               </h4>

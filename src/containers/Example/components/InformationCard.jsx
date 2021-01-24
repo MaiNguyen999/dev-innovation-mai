@@ -13,7 +13,7 @@ class InformationCard extends Component{
       case "6":
       case "2":
         return <Alert color="warning" className="alert--neutral" icon>
-        <p><span className="bold-text">Suggested items:    </span> <a href={'#'}>Computer Coverage</a>, <a href={"#"}>Dwelling Coverage</a>
+        <p><span className="bold-text">Suggested items:    </span> <a href={'#'}>Pencil</a>, <a href={"#"}>Eraser</a>
         </p>
       </Alert>;
       case "3":
@@ -29,12 +29,11 @@ class InformationCard extends Component{
         <Card>
           <CardBody>
             <div className="card__title">
-            {/* <button onClick={>Start TogetherJS</button> */}
               <h5 className="bold-text">{this.props.title}</h5>
               <h5 className="subhead">{this.props.subhead}</h5>
             </div>
-            <a href={"https://www.youtube.com/watch?v=bic4qOuIJoI"}><img src={`${process.env.PUBLIC_URL}/image/youtube.png`} className="youtube-icon"/></a>
-            <a href={"https://www.freshwateralliance.ca/floods"}><img src={`${process.env.PUBLIC_URL}/image/stats.png`} className="stats-icon"/></a>
+            <a href={"https://www.youtube.com/watch?v=vNQzCwtImCU"}><img src={`${process.env.PUBLIC_URL}/image/youtube.png`} className="youtube-icon"/></a>
+            <a href={"https://en.wikipedia.org/wiki/Stationary_process#:~:text=In%20mathematics%20and%20statistics,%20a%20stationary%20process%20(or,and%20variance%20also%20do%20not%20change%20over%20time."}><img src={`${process.env.PUBLIC_URL}/image/stats.png`} className="stats-icon"/></a>
              
             {this.props.children}
             

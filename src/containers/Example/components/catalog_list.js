@@ -1,7 +1,7 @@
 export default [
   {
     src: `${process.env.PUBLIC_URL}/img/5.png`,
-    title: 'Computer Coverage',
+    title: 'Computer',
     price: '12',
     description: 'Awesome item from Glassy brand',
     stats: '80% people also bought this',
@@ -9,7 +9,7 @@ export default [
   },
   {
     src: `${process.env.PUBLIC_URL}/img/8.png`,
-    title: 'Bike Coverage',
+    title: 'Bike',
     price: '17',
     description: 'Awesome item from Glassy brand',
     stats: '20% also bought this',
@@ -17,10 +17,10 @@ export default [
   },
   {
     src: `${process.env.PUBLIC_URL}/img/7.png`,
-    title: 'Building Coverage',
+    title: 'Stationery',
     price: '17',
     description: 'Awesome item from Glassy brand',
-    stats: [],
+    stats: '20% also bought this',
     sale: true,
     oldPrice: '23',
   }

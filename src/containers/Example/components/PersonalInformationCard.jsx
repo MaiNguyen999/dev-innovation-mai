@@ -24,11 +24,11 @@ const PersonalInformationCard = () => (
             <p dir="ltr">Phone Number: (012)-5446-8288</p>
           </div>
           <div className="invoice__head-right">
-            <h4>Mai's Innovation</h4>
+            <h4>Invoice</h4>
             <p className="invoice__date">August 23, 2019</p>
             <p></p>
-            <p>ABC's Broker Company</p>
-            <p>broker@gmail.com</p>
+            <p>ABC's Company</p>
+            <p>abc@gmail.com</p>
             <p>44 Shirley Ave.</p>
             <p>West Chicago, IL 60185</p>
           </div>

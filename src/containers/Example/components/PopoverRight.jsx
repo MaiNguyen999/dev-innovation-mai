@@ -38,7 +38,7 @@ class PopoverRight extends PureComponent {
         >
           <PopoverHeader>FAQ</PopoverHeader>
           <PopoverBody>
-            <a href={"https://www.wawanesa.com/canada/products/home-insurance.html"}>What is the difference between broad and special coverage?</a>
+            <a href={"https://en.wikipedia.org/wiki/Stationery"}>What is stationery?</a>
           </PopoverBody>
         </Popover>
       </div>

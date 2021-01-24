@@ -22,7 +22,7 @@ class Card3 extends Component{
           <CardBody>
           <div className="dashboard__stat dashboard__stat--budget">
             <div className="dashboard__stat-main">
-              <p className="dashboard__stat-main-title">Expected Premium</p>
+              <p className="dashboard__stat-main-title">Expected Price</p>
               <p className="dashboard__stat-main-number">${priceValue3}</p>
               <hr />
             </div>
@@ -35,7 +35,7 @@ class Card3 extends Component{
               <p className="dashboard__stat-label" style={{ color: '#4ce1b6' }}>80%</p>
             </div>
             <div className="dashboard__stat-info">
-              <p>Break-in happens in area A</p>
+              <p>People uses this to remove pencil marks</p>
               <h4 className="dashboard__stat-number">
                 Starting from $23,747.00
               </h4>
@@ -49,7 +49,7 @@ class Card3 extends Component{
               <p className="dashboard__stat-label" style={{ color: '#ff4861' }}>50%</p>
             </div>
             <div className="dashboard__stat-info">
-              <p>Break-in happens in area B</p>
+              <p>People uses this to remove pen marks</p>
               <h4 className="dashboard__stat-number">
                     Starting from $23,747.00
               </h4>

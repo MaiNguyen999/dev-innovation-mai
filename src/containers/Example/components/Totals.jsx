@@ -32,19 +32,19 @@ class Total extends Component{
                     <tbody>
                         <tr>
                             <td>1</td>
-                            <td>Coverage A – Dwelling Building</td>
+                            <td>Pen</td>
                             <td>1</td>
                             <td>${priceValue}</td>
                         </tr>
                         <tr>
                             <td>2</td>
-                            <td>Coverage B - Private Structures</td>
+                            <td>Pencil</td>
                             <td>1</td>
                             <td>${priceValue2}</td>
                         </tr>
                         <tr>
                             <td>3</td>
-                            <td>Coverage C - Personal Property</td>
+                            <td>Eraser</td>
                             <td>1</td>
                             <td>${priceValue3}</td>
                         </tr>
